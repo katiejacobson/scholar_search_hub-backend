@@ -1,0 +1,19 @@
+{
+  "name": "scholar_search_hub-backend",
+  "version": "1.0.0",
+  "description": "Project #12: This project creates a basic server for the WTWR application. An Express server was created and connected to a database that was created. The routes for users and clothing items were configured and controllers for the routes were created. Additionally, basic error handling was added.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx esling .",
+    "start": "nodemon index.js"
+  },
+  "author": "Katie Jacobson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
